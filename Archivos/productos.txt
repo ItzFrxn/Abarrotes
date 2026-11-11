@@ -1,0 +1,7 @@
+01|Pan Blanco Ch|Panaderia|Bimbo|15|35
+02|Pan Blanco Gr|Panaderia|Bimbo|19|45
+03|Pan Tostado|Panaderia|Bimbo|45.49|18
+04|Galletas Maria|Panaderia|Gamesa|30.99|45
+05|Galletas Emperador|Panaderia|Gamesa|30.99|45
+06|Sabritas Original|Botana|Sabritas|25|45
+07|Sabritas Adobadas|Botana|Sabritas|25|45
