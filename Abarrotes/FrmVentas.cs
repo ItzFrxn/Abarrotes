@@ -57,7 +57,7 @@ namespace Abarrotes
 			}
 			catch
 			{
-				MessageBox.Show("Error al cargar los productos");
+				MessageBox.Show("Error al cargar los productos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			};
 		}
 

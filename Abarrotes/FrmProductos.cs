@@ -150,15 +150,14 @@ namespace Abarrotes
 				string linea = archivo.ReadLine();
 				int count = 0;
 
+				this.lstvwProductos.Items.Clear();
+
 				while (linea != null)
 				{
 					string[] datos = linea.Split('|');
 
-					if (txtCodigo.Text == datos[0])
-					{
-						ListViewItem item = new ListViewItem(datos);
-						lstvwProductos.Items.Add(item);
-					}
+					ListViewItem item = new ListViewItem(datos);
+					this.lstvwProductos.Items.Add(item);
 
 					linea = archivo.ReadLine();
 					count++;
@@ -167,10 +166,10 @@ namespace Abarrotes
 				archivo.Close();
 				tlpContador.Text = Convert.ToString(count);
 			}
-			catch
+			catch (Exception ex)
 			{
-				MessageBox.Show("Error al cargar los productos");
-			};
+				MessageBox.Show("Error al cargar los productos." + ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
 		}
 
 		private void ActualizarArchivo()

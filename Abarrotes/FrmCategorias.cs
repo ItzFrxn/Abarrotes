@@ -31,7 +31,6 @@ namespace Abarrotes
 
 		private void btnGuardar_Click(object sender, EventArgs e)
 		{
-
 			if (txtNombre.Text == "")
 			{
 				MessageBox.Show("El campo 'nombre' esta vacio.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);

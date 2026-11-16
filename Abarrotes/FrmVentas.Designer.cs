@@ -41,7 +41,7 @@
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
 			this.lblSubtotal = new System.Windows.Forms.Label();
 			this.groupBox4 = new System.Windows.Forms.GroupBox();
-			this.cboRecibo = new System.Windows.Forms.ComboBox();
+			this.txtRecibo = new System.Windows.Forms.TextBox();
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.label4 = new System.Windows.Forms.Label();
 			this.lstvwProductos = new System.Windows.Forms.ListView();
@@ -179,7 +179,7 @@
 			// 
 			// groupBox4
 			// 
-			this.groupBox4.Controls.Add(this.cboRecibo);
+			this.groupBox4.Controls.Add(this.txtRecibo);
 			this.groupBox4.Location = new System.Drawing.Point(480, 77);
 			this.groupBox4.Name = "groupBox4";
 			this.groupBox4.Size = new System.Drawing.Size(150, 80);
@@ -187,13 +187,12 @@
 			this.groupBox4.TabStop = false;
 			this.groupBox4.Text = "Recibo";
 			// 
-			// cboRecibo
+			// txtRecibo
 			// 
-			this.cboRecibo.FormattingEnabled = true;
-			this.cboRecibo.Location = new System.Drawing.Point(23, 31);
-			this.cboRecibo.Name = "cboRecibo";
-			this.cboRecibo.Size = new System.Drawing.Size(121, 21);
-			this.cboRecibo.TabIndex = 0;
+			this.txtRecibo.Location = new System.Drawing.Point(41, 31);
+			this.txtRecibo.Name = "txtRecibo";
+			this.txtRecibo.Size = new System.Drawing.Size(100, 20);
+			this.txtRecibo.TabIndex = 0;
 			// 
 			// panel2
 			// 
@@ -293,6 +292,7 @@
 			this.groupBox3.ResumeLayout(false);
 			this.groupBox3.PerformLayout();
 			this.groupBox4.ResumeLayout(false);
+			this.groupBox4.PerformLayout();
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
 			this.statusStrip1.ResumeLayout(false);
@@ -317,7 +317,6 @@
 		private System.Windows.Forms.GroupBox groupBox3;
 		private System.Windows.Forms.Label lblSubtotal;
 		private System.Windows.Forms.GroupBox groupBox4;
-		private System.Windows.Forms.ComboBox cboRecibo;
 		private System.Windows.Forms.Panel panel2;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.ListView lstvwProductos;
@@ -326,5 +325,6 @@
 		private System.Windows.Forms.ToolStripStatusLabel tlpContador;
 		private System.Windows.Forms.TextBox txtCodigo;
 		private System.Windows.Forms.Button btnEnter;
+		private System.Windows.Forms.TextBox txtRecibo;
 	}
 }

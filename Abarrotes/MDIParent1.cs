@@ -102,7 +102,6 @@ namespace Abarrotes
 			}
 		}
 
-
 		private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			FrmMarcas forma = new FrmMarcas();
@@ -133,6 +132,19 @@ namespace Abarrotes
 			forma.MdiParent = this;
 			forma.StartPosition = FormStartPosition.CenterParent;
 			forma.Show();
+		}
+
+		private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			FrmAcerca forma = new FrmAcerca();
+			forma.MdiParent = this;
+			forma.StartPosition = FormStartPosition.CenterParent;
+			forma.Show();
+		}
+
+		private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			this.Close();
 		}
 	}
 }

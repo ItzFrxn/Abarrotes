@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Abarrotes
 {
-	public partial class Form1 : Form
+	public partial class FrmAcerca : Form
 	{
-		public Form1()
+		public FrmAcerca()
 		{
 			InitializeComponent();
 		}
